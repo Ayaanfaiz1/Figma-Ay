@@ -1,0 +1,41 @@
+.hello{
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    
+    
+    
+}
+.part1{
+    border: solid 1px rgb(198, 198, 202);
+    background-color: black(0,0,0,0.1);
+    border-radius: 10px;
+    border-width: 4px;
+    height: 100%;
+    width: 100%;
+
+}
+.part1 h2{
+    margin-left: 50px;
+    font-size: 40px;
+    color: rgb(241, 156, 87);
+}
+/* .part1 h2:hover{
+    font-size: 45px;
+} */
+.part1 img{
+    display: block;
+    margin: auto;  
+    transition: 0.5s;
+}
+
+
+.part1 img:hover{
+    transform: scale(1.1);
+    /* transform: translate(-5px,-10px); */
+    /* transform: skew(-5deg, -5deg); */
+    /* transform: rotate(15deg); */
+    /* transform: matrix(0,1 1,0,0,0); */
+
+} 
